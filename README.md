@@ -1,6 +1,6 @@
 <div align="center">
 
-# 💉 VitalConnect
+# 🫀 VitalConnect
 ### Organ Donation Management & Certification System
 
 *Connecting donors, hospitals, and administrators — saving lives through technology*
