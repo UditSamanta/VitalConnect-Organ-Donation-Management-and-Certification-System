@@ -130,18 +130,18 @@ The matching engine (`backend/src/utils/matching.js`) runs automatically when an
 │  │   Page   │  │ Login /   │  │ Donor / Hospital │  │
 │  │          │  │ Register  │  │ / Admin          │  │
 │  └──────────┘  └───────────┘  └──────────────────┘  │
-│                      │ Axios HTTP                    │
+│                      │ Axios HTTP                   │
 └──────────────────────┼──────────────────────────────┘
                        ▼
 ┌─────────────────────────────────────────────────────┐
 │                    API SERVER                       │
 │                                                     │
 │  Node.js + Express.js  (Port 5000)                  │
-│  ┌──────┐  ┌────────┐  ┌──────────┐  ┌──────────┐  │
-│  │ Auth │  │ Donor  │  │ Hospital │  │  Admin   │  │
-│  │Routes│  │ Routes │  │  Routes  │  │  Routes  │  │
-│  └──────┘  └────────┘  └──────────┘  └──────────┘  │
-│            JWT Middleware + bcrypt Auth              │
+│  ┌──────┐  ┌────────┐  ┌──────────┐  ┌──────────┐   │
+│  │ Auth │  │ Donor  │  │ Hospital │  │  Admin   │   │
+│  │Routes│  │ Routes │  │  Routes  │  │  Routes  │   │
+│  └──────┘  └────────┘  └──────────┘  └──────────┘   │
+│            JWT Middleware + bcrypt Auth             │
 └──────────────────────┼──────────────────────────────┘
                        ▼
 ┌─────────────────────────────────────────────────────┐
