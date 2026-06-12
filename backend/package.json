@@ -1,0 +1,24 @@
+{
+  "name": "odms-backend",
+  "version": "1.0.0",
+  "description": "Organ Donation Management System - Backend API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "keywords": ["organ-donation", "express", "mysql"],
+  "author": "ODMS Team",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.1",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.19.1",
+    "pdfkit": "^0.17.2",
+    "uuid": "^13.0.0"
+  }
+}
