@@ -1,38 +1,34 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=E74C3C&center=true&vCenter=true&width=700&lines=💉+VitalConnect;Organ+Donation+Management+System;Saving+Lives+Through+Technology" alt="Typing SVG" />
+# 💉 VitalConnect
+### Organ Donation Management & Certification System
+
+*Connecting donors, hospitals, and administrators — saving lives through technology*
 
 <br/>
 
-<!-- Tech Stack Badges -->
 ![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express.js-4.x-000000?style=for-the-badge&logo=express&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-Auth-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-![PDFKit](https://img.shields.io/badge/PDFKit-Certificates-FF4500?style=for-the-badge&logo=adobe&logoColor=white)
+![PDFKit](https://img.shields.io/badge/PDFKit-Certificates-FF4500?style=for-the-badge)
 
 <br/>
 
-<!-- Status Badges -->
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-orange?style=flat-square)
-![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red?style=flat-square)
 ![DBMS Project](https://img.shields.io/badge/Academic-DBMS%20Project-purple?style=flat-square)
-
-<br/><br/>
-
-> **VitalConnect** is a full-stack Organ Donation Management and Certification System built with React, Node.js, and MySQL.  
-> It connects donors, hospitals, and administrators on a single platform — enabling seamless organ matching and certified donation workflows.
+![Made with Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F-red?style=flat-square)
 
 <br/>
 
-[![View Repository](https://img.shields.io/badge/⭐%20Star%20this%20Repo-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/UditSamanta/VitalConnect-Organ-Donation-Management-and-Certification-System)
-[![Report Bug](https://img.shields.io/badge/🐛%20Report%20Bug-Issues-red?style=for-the-badge)](https://github.com/UditSamanta/VitalConnect-Organ-Donation-Management-and-Certification-System/issues)
-[![Request Feature](https://img.shields.io/badge/✨%20Request%20Feature-Discuss-blueviolet?style=for-the-badge)](https://github.com/UditSamanta/VitalConnect-Organ-Donation-Management-and-Certification-System/issues)
+[![⭐ Star this Repo](https://img.shields.io/badge/⭐%20Star%20this%20Repo-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/UditSamanta/VitalConnect-Organ-Donation-Management-and-Certification-System)
+[![🐛 Report Bug](https://img.shields.io/badge/🐛%20Report%20Bug-Issues-red?style=for-the-badge)](https://github.com/UditSamanta/VitalConnect-Organ-Donation-Management-and-Certification-System/issues)
+[![✨ Request Feature](https://img.shields.io/badge/✨%20Request%20Feature-Discuss-blueviolet?style=for-the-badge)](https://github.com/UditSamanta/VitalConnect-Organ-Donation-Management-and-Certification-System/issues)
 
 </div>
 
@@ -55,11 +51,6 @@
 
 ## 🧠 About the Project
 
-<details>
-<summary><b>📖 Click to read — What is VitalConnect?</b></summary>
-
-<br/>
-
 **VitalConnect** is an end-to-end web platform that digitizes the organ donation lifecycle:
 
 - 🧑 **Donors** register their willingness to donate specific organs, track their approval status, and download official PDF donation certificates.
@@ -68,16 +59,9 @@
 
 The system was built as a **DBMS college project**, showcasing real-world database concepts like normalization, concurrency control, transaction management, and relational integrity.
 
-</details>
-
 ---
 
 ## 🛠️ Tech Stack
-
-<details>
-<summary><b>⚙️ Click to expand — Full Tech Stack Breakdown</b></summary>
-
-<br/>
 
 | Layer | Technology | Purpose |
 |-------|-----------|---------|
@@ -90,133 +74,88 @@ The system was built as a **DBMS college project**, showcasing real-world databa
 | **HTTP Client** | Axios | Frontend → Backend API calls |
 | **Dev Server** | Vite | Fast frontend dev & build tool |
 
-</details>
-
 ---
 
 ## ✨ Features
 
-<details>
-<summary><b>🔐 Click to expand — Authentication & Security</b></summary>
-
-<br/>
-
+### 🔐 Authentication & Security
 - 🔑 **JWT-based Authentication** — Stateless, secure token sessions
 - 🔒 **bcrypt Password Hashing** — Passwords never stored in plaintext
 - 🛡️ **Role-Based Access Control (RBAC)** — Three distinct roles: `donor`, `hospital`, `admin`
 - 🚫 **Protected Routes** — Frontend route guards + backend middleware
 - 📋 **Input Validation** — Server-side data sanitization on all endpoints
 
-</details>
-
-<details>
-<summary><b>🩸 Click to expand — Donor Features</b></summary>
-
-<br/>
-
+### 🩸 Donor Features
 - 📝 Register as a donor with personal details, blood group, and selected organs
 - 📊 Real-time approval status tracking (Pending / Approved / Rejected)
 - 📄 Download official **PDF Donation Certificate** upon approval
 - ✏️ Update profile and organ preferences at any time
 - 🔔 Dashboard showing current registration status
 
-</details>
-
-<details>
-<summary><b>🏥 Click to expand — Hospital Features</b></summary>
-
-<br/>
-
+### 🏥 Hospital Features
 - 🏗️ Register hospital profile with name, address, and license details
 - 📨 Submit organ requests specifying organ type, blood group, and urgency
 - 📋 Track submitted request statuses
 - 🔍 View matched donor information upon successful match
 
-</details>
-
-<details>
-<summary><b>🛡️ Click to expand — Admin Features</b></summary>
-
-<br/>
-
+### 🛡️ Admin Features
 - 📊 **Live Dashboard Analytics** — Total donors, hospitals, requests, matches
 - 👥 Browse and search all registered donors
-- ✅ **Approve / ❌ Reject** donor applications with one click
+- ✅ **Approve** / ❌ **Reject** donor applications with one click
 - 🔄 **Auto Organ Matching** — Triggered on approval, matches by blood group + organ type
 - 📈 Platform-wide statistics and reporting
 
-</details>
-
-<details>
-<summary><b>🤖 Click to expand — Organ Matching Algorithm</b></summary>
-
-<br/>
+### 🤖 Organ Matching Algorithm
 
 The matching engine (`backend/src/utils/matching.js`) runs automatically when an admin approves a donor:
 
 1. Fetches donor's blood group + list of organs they're donating
-2. Queries `organ_requests` for pending requests matching:
-   - Same organ type
-   - Compatible blood group
+2. Queries `organ_requests` for pending requests matching the same organ type and compatible blood group
 3. Creates entries in the `matches` table
 4. Marks matched requests as fulfilled
 
-**Matching priority:** First-come, first-served among pending requests.
-
-</details>
+> **Matching priority:** First-come, first-served among pending requests.
 
 ---
 
 ## 🏗️ System Architecture
 
-<details>
-<summary><b>📐 Click to expand — Architecture Overview</b></summary>
-
-<br/>
-
 ```
 ┌─────────────────────────────────────────────────────┐
-│                     CLIENT SIDE                      │
+│                     CLIENT SIDE                     │
 │                                                     │
 │  React 19 + Vite + TailwindCSS                      │
-│  ┌──────────┐ ┌───────────┐ ┌──────────────────┐   │
-│  │ Landing  │ │  Auth     │ │   Dashboards     │   │
-│  │  Page    │ │ Login /   │ │ Donor / Hospital │   │
-│  │          │ │ Register  │ │ / Admin          │   │
-│  └──────────┘ └───────────┘ └──────────────────┘   │
-│                     │ Axios HTTP                     │
-└─────────────────────┼───────────────────────────────┘
-                      ▼
+│  ┌──────────┐  ┌───────────┐  ┌──────────────────┐  │
+│  │ Landing  │  │   Auth    │  │   Dashboards     │  │
+│  │   Page   │  │ Login /   │  │ Donor / Hospital │  │
+│  │          │  │ Register  │  │ / Admin          │  │
+│  └──────────┘  └───────────┘  └──────────────────┘  │
+│                      │ Axios HTTP                    │
+└──────────────────────┼──────────────────────────────┘
+                       ▼
 ┌─────────────────────────────────────────────────────┐
-│                    API SERVER                        │
+│                    API SERVER                       │
 │                                                     │
 │  Node.js + Express.js  (Port 5000)                  │
-│  ┌──────┐ ┌────────┐ ┌──────────┐ ┌─────────────┐  │
-│  │ Auth │ │ Donor  │ │ Hospital │ │    Admin    │  │
-│  │ Routes│ │ Routes │ │  Routes  │ │   Routes   │  │
-│  └──────┘ └────────┘ └──────────┘ └─────────────┘  │
-│        │ JWT Middleware + bcrypt Auth                │
-└────────┼────────────────────────────────────────────┘
-         ▼
+│  ┌──────┐  ┌────────┐  ┌──────────┐  ┌──────────┐  │
+│  │ Auth │  │ Donor  │  │ Hospital │  │  Admin   │  │
+│  │Routes│  │ Routes │  │  Routes  │  │  Routes  │  │
+│  └──────┘  └────────┘  └──────────┘  └──────────┘  │
+│            JWT Middleware + bcrypt Auth              │
+└──────────────────────┼──────────────────────────────┘
+                       ▼
 ┌─────────────────────────────────────────────────────┐
-│                  DATABASE LAYER                      │
+│                  DATABASE LAYER                     │
 │                                                     │
 │  MySQL 8.0                                          │
 │  users → donors → hospitals → organ_requests        │
-│                            → matches → certificates  │
+│                            → matches → certificates │
 └─────────────────────────────────────────────────────┘
 ```
-
-</details>
 
 ---
 
 ## 🗃️ Database Design
-
-<details>
-<summary><b>📊 Click to expand — Schema & Tables</b></summary>
-
-<br/>
 
 | Table | Description | Key Columns |
 |-------|-------------|-------------|
@@ -227,43 +166,18 @@ The matching engine (`backend/src/utils/matching.js`) runs automatically when an
 | `matches` | Donor ↔ Request links | `donor_id`, `request_id`, `matched_at` |
 | `certificates` | Issued certificates | `donor_id`, `issued_at`, `certificate_no` |
 
-**Normalization:** Schema is in **3rd Normal Form (3NF)** — no transitive dependencies.
-
-**Referential Integrity:** All foreign keys use `ON DELETE CASCADE` to maintain consistency.
-
-</details>
-
-<details>
-<summary><b>🔄 Click to expand — DBMS Concepts Implemented</b></summary>
-
-<br/>
-
-| Concept | Where Used |
-|---------|-----------|
-| **3NF Normalization** | All 6 tables follow 3rd Normal Form |
-| **Transactions** | Donor approval + matching runs as a single atomic transaction |
-| **Concurrency Control** | MySQL InnoDB row-level locking during match assignment |
-| **Referential Integrity** | FK constraints with CASCADE rules across all relations |
-| **Indexing** | Indexed on `email`, `blood_group`, `status` for fast queries |
-| **Stored Procedures** | Used for bulk matching logic |
-| **Connection Pooling** | MySQL2 pool with configurable size in `db.js` |
-
-</details>
+> **Normalization:** Schema is in **3rd Normal Form (3NF)** — no transitive dependencies.  
+> **Referential Integrity:** All foreign keys use `ON DELETE CASCADE` to maintain consistency.
 
 ---
 
 ## 🔌 API Reference
 
-<details>
-<summary><b>📡 Click to expand — All API Endpoints</b></summary>
-
-<br/>
-
 ### 🔐 Auth Routes
 | Method | Endpoint | Auth | Description |
 |--------|----------|------|-------------|
 | `POST` | `/api/auth/register` | None | Register new user |
-| `POST` | `/api/auth/login` | None | Login & get JWT |
+| `POST` | `/api/auth/login` | None | Login & get JWT token |
 
 ### 🩸 Donor Routes
 | Method | Endpoint | Auth | Description |
@@ -294,18 +208,11 @@ The matching engine (`backend/src/utils/matching.js`) runs automatically when an
 ### ❤️ Health Check
 | Method | Endpoint | Auth | Description |
 |--------|----------|------|-------------|
-| `GET` | `/api/health` | None | Server status |
-
-</details>
+| `GET` | `/api/health` | None | Server status check |
 
 ---
 
 ## 📂 Project Structure
-
-<details>
-<summary><b>🗂️ Click to expand — Full Directory Structure</b></summary>
-
-<br/>
 
 ```
 VitalConnect/
@@ -365,18 +272,11 @@ VitalConnect/
     └── dbms_report.md          # Full academic DBMS project report
 ```
 
-</details>
-
 ---
 
 ## 🚀 Getting Started
 
-<details>
-<summary><b>⚙️ Click to expand — Prerequisites</b></summary>
-
-<br/>
-
-Make sure you have the following installed:
+### Prerequisites
 
 | Tool | Version | Download |
 |------|---------|----------|
@@ -385,46 +285,27 @@ Make sure you have the following installed:
 | npm | v9+ | Comes with Node.js |
 | Git | Latest | [git-scm.com](https://git-scm.com) |
 
-</details>
-
-<details>
-<summary><b>🗄️ Click to expand — Step 1: Database Setup</b></summary>
-
-<br/>
+### Step 1 — Database Setup
 
 Open your MySQL shell or MySQL Workbench and run:
 
 ```sql
--- Create and select the database
 CREATE DATABASE IF NOT EXISTS organ_donation_db;
 USE organ_donation_db;
 
--- Load the schema (creates all tables)
 SOURCE /path/to/database/schema.sql;
-
--- Load sample data (500+ donors, hospitals, requests)
 SOURCE /path/to/database/sample_data.sql;
 ```
 
-</details>
-
-<details>
-<summary><b>🖥️ Click to expand — Step 2: Backend Setup</b></summary>
-
-<br/>
+### Step 2 — Backend Setup
 
 ```bash
-# Navigate to the backend
 cd backend
-
-# Install dependencies
 npm install
-
-# Create your .env file from the template
 cp .env.example .env
 ```
 
-Edit `.env` and fill in your MySQL credentials:
+Edit `.env` with your credentials:
 
 ```env
 DB_HOST=localhost
@@ -435,7 +316,7 @@ JWT_SECRET=your_secret_key_here
 PORT=5000
 ```
 
-Start the backend server:
+Start the backend:
 
 ```bash
 node src/server.js
@@ -443,27 +324,15 @@ node src/server.js
 
 ✅ Backend running at **http://localhost:5000**
 
-</details>
-
-<details>
-<summary><b>🌐 Click to expand — Step 3: Frontend Setup</b></summary>
-
-<br/>
+### Step 3 — Frontend Setup
 
 ```bash
-# Navigate to the frontend
 cd frontend
-
-# Install dependencies
 npm install
-
-# Start the development server
 npm run dev
 ```
 
 ✅ Frontend running at **http://localhost:5173**
-
-</details>
 
 ---
 
@@ -481,39 +350,14 @@ npm run dev
 
 ## 🎓 DBMS Concepts Used
 
-<details>
-<summary><b>📚 Click to expand — Academic DBMS Concepts Demonstrated</b></summary>
-
-<br/>
-
-This project was built to demonstrate the following DBMS concepts:
-
-#### 📐 Normalization
-- All tables conform to **3rd Normal Form (3NF)**
-- No partial or transitive functional dependencies
-- Decomposed properly using functional dependency analysis
-
-#### 🔒 Concurrency Control
-- MySQL **InnoDB engine** with row-level locking
-- Prevents race conditions during simultaneous donor approvals
-- Uses `SELECT ... FOR UPDATE` during matching to lock rows
-
-#### 💾 Transaction Management
-- Donor approval + organ matching wrapped in a single **ACID transaction**
-- On any failure, the entire operation **rolls back** atomically
-
-#### 🔗 Referential Integrity
-- All foreign keys defined with `ON DELETE CASCADE`
-- Ensures no orphan records exist across tables
-
-#### ⚡ Indexing & Query Optimization
-- Indexes on frequently queried columns: `email`, `blood_group`, `status`
-- Query optimization using `EXPLAIN` to minimize full table scans
-
-#### 🗃️ Connection Pooling
-- MySQL2 connection pool (`db.js`) handles concurrent API requests efficiently
-
-</details>
+| Concept | Implementation |
+|---------|---------------|
+| **3NF Normalization** | All 6 tables follow 3rd Normal Form — no partial or transitive dependencies |
+| **Transactions** | Donor approval + organ matching runs as a single atomic ACID transaction |
+| **Concurrency Control** | MySQL InnoDB row-level locking via `SELECT ... FOR UPDATE` during match assignment |
+| **Referential Integrity** | FK constraints with `ON DELETE CASCADE` across all relational tables |
+| **Indexing** | Indexes on `email`, `blood_group`, `status` for optimized query performance |
+| **Connection Pooling** | MySQL2 pool with configurable size in `config/db.js` |
 
 ---
 
